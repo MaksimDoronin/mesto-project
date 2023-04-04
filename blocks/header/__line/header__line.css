@@ -1,4 +1,4 @@
 .header__line {
-  width: 100%;
-  border-bottom: 1px solid #545454;
+  height: 1px;
+  background-color: #545454;
 }

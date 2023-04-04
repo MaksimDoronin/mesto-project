@@ -15,33 +15,80 @@
     <div class="header__line"></div>
   </header>
 <main class="content">
-  <section class="profile">
-    <img class="profile__avatar" src="./images/image.jpg" alt=""
+  <section class="profile" aria-label="Карточка профиля">
+    <img class="profile__avatar" src="./images/image.jpg" alt="Фото Жака Ив Кусто">
+    <div class="profile__info">
+      <div class="profile__info-container">
+        <h2 class="profile__title">Жак-ив кусто</h2>
+        <button class="profile__edit-button" type="button" name="edit-profile" value="edit-profile" form="form" aria-label="Редактировать профиль"></button>
+      </div>
+      <p class="profile__subtitle">Исследователь океана</p>
+    </div>
+    <button class="profile__add-button" type="button" name="add" value="add" aria-label="Добавить"></button>
   </section>
-<section class="elements">
-  <article class="elements">
-
-  </article>
-</section>
+  <section class="elements">
+    <article class="element">
+      <img class="element__mask-group" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="фото старой заброшенной крепости на фоне горы">
+      <div class="element__container">
+        <h3 class="element__caption">Карачаевск</h3>
+        <button class="element__group"  type="button" aria-label="Лайк"></button>
+      </div>
+    </article>
+    <article class="element">
+      <img class="element__mask-group" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Фото издалека вершины Эльбруса во время заката">
+      <div class="element__container">
+        <h3 class="element__caption">Гора Эльбрус</h3>
+        <button class="element__group" type="button" aria-label="Лайк"></button>
+      </div>
+    </article>
+    <article class="element">
+      <img class="element__mask-group" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="фото: живописный вид на одну из вершин Домбая">
+      <div class="element__container">
+        <h3 class="element__caption">Домбай</h3>
+        <button class="element__group" type="button" aria-label="Лайк"></button>
+      </div>
+    </article>
+    <article class="element">
+      <img class="element__mask-group" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Фото издалека вершины Эльбруса во время заката">
+      <div class="element__container">
+        <h3 class="element__caption">Гора Эльбрус</h3>
+        <button class="element__group" type="button" aria-label="Лайк"></button>
+      </div>
+    </article>
+    <article class="element">
+      <img class="element__mask-group" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="фото: живописный вид на одну из вершин Домбая">
+      <div class="element__container">
+        <h3 class="element__caption">Домбай</h3>
+        <button class="element__group" type="button" aria-label="Лайк"></button>
+      </div>
+    </article>
+    <article class="element">
+      <img class="element__mask-group" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="фото старой заброшенной крепости на фоне горы">
+      <div class="element__container">
+        <h3 class="element__caption">Карачаево-Черкессия</h3>
+        <button class="element__group" type="button" aria-label="Лайк"></button>
+      </div>
+    </article>
+  </section>
+  <section class="popup" aria-label="Модальное окно редактирования">
+    <div class="popup__container">
+      <button class="popup__close-icon" type="button" aria-label="Закрыть" form="form"></button>
+      <form class="popup__form" id="form">
+        <h1 class="popup__heading">Редактировать профиль</h1>
+        <fieldset class="popup__input-container">
+          <input name="name" id="name" type="text" class="popup__item" placeholder="Жак-Ив Кусто">
+          <input name="about-me" id="about-me" type="text" class="popup__item" placeholder="Исследователь океана">
+        </fieldset>
+        <fieldset class="popup__handler">
+          <button type="submit" class="popup__submit-button">Сохранить</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
 </main>
 <footer class="footer">
-  <p class="footer__text"
+  <p class="footer__text">&COPY; 2020 mesto russia</p>
 </footer>
-
-
-
-
-<!--Модальное окно popup-->
-<div class="popup">
-  <div class="popup__container">
-    <div class="popup__close"><a href="#">X</a></div>
-    <form class="form__profile">
-      <h2 class="form__heading">Редактировать профиль</h2>
-      <input name="name" id="name" type="text" class="form__item">
-      <input name="about-me" id="about-me" type="text" class="form__item">
-      <button type="submit" class="form__button">Сохранить</button>
-    </form>
-  </div>
-</div>
 </body>
 </html>
+

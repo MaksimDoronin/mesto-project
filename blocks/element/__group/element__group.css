@@ -1,0 +1,17 @@
+.element__group {
+  display: block;
+  width: 22px;
+  height: 19px;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../../../images/Group.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.element__group:hover {
+  opacity: .5;
+}
