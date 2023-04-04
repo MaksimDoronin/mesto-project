@@ -15,4 +15,4 @@
 * [Pixel perfect](https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=ru)
   
 **Ссылка на проект**  
-[pages.github](https://maksimdoronin.github.io/russian-travel/)
+[pages.github](https://maksimdoronin.github.io/mesto-project/)
