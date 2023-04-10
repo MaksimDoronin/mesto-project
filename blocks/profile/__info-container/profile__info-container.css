@@ -4,14 +4,14 @@
   gap: 18px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 630px) {
   .profile__info-container {
-    gap: 10px;
+    padding-left: 30px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .profile__info-container {
-    padding-left: 30px;
+    gap: 10px;
   }
 }

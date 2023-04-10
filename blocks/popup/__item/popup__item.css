@@ -23,7 +23,7 @@
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   line-height: 17px;
-  color:#000;
+  color: rgba (0, 0, 0, .5);
 }
 
 .popup__item::-moz-placeholder {
@@ -31,7 +31,7 @@
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   line-height: 17px;
-  color:#000;
+  color: rgba (0, 0, 0, .5);
 }
 
 .popup__item::-ms-input-placeholder {
@@ -39,12 +39,12 @@
   font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   line-height: 17px;
-  color:#000;
+  color: rgba (0, 0, 0, .5);
 }
 
 .popup__item::placeholder {
   font-size: 14px;
   font-family: 'Inter', Arial, sans-serif;
   line-height: 17px;
-  color:#000;
+  color: rgba (0, 0, 0, .5);
 }

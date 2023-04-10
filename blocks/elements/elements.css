@@ -4,13 +4,12 @@
   box-sizing: border-box;
   padding: 51px 0 67px;
   display: grid;
-  grid-template-columns: repeat(3, minmax(282px, 1fr));
+  grid-template-columns: repeat(auto-fit, 282px);
   gap: 20px 17px;
 }
 
 @media screen and (max-width: 950px) {
   .elements {
-    grid-template-columns: repeat(2, 282px);
     justify-content: center;
   }
 }
@@ -18,7 +17,6 @@
 @media screen and (max-width: 630px) {
   .elements {
     max-width: 282px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 20px;
